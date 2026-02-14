@@ -13,7 +13,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Токен твоего бота
-BOT_TOKEN = "8304459768:AAE0Zl6WD5WQtEBNhT_0vfMLsI9alH99xpU"
+BOT_TOKEN = "8304459768:AAWD5WQtEBNhT_0vfMLsI9alH99xpU"
 
 # База данных
 user_data = {}  # {user_id: {'username': '...', 'liked': None, 'matched_with': None}}
@@ -426,4 +426,5 @@ def main():
 
 
 if __name__ == '__main__':
+
     main()
